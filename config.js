@@ -1,7 +1,8 @@
 // Configuration module
 
 const config = {
-  // TODO: add config options
+  apiUrl: 'https://api.example.com',
+  timeout: 5000,
 };
 
 module.exports = config;
