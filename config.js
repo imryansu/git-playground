@@ -1,4 +1,7 @@
-// Configuration module
+/**
+ * Configuration module
+ * Manages application-wide configuration settings
+ */
 
 const config = {
   apiUrl: 'https://api.example.com',
