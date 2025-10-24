@@ -1,8 +1,17 @@
 // User profile module
 
 function getProfile(userId) {
-  // TODO: fetch profile
-  return null;
+  // Mock profile data
+  return {
+    id: userId,
+    name: 'John Doe',
+    email: 'john@example.com'
+  };
 }
 
-module.exports = { getProfile };
+function updateProfile(userId, data) {
+  // TODO: update profile
+  return { success: true, data };
+}
+
+module.exports = { getProfile, updateProfile };
