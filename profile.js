@@ -1,4 +1,6 @@
-// User profile module
+/**
+ * User profile management module
+ */
 
 function getProfile(userId) {
   // Mock profile data
